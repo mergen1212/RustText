@@ -28,7 +28,8 @@ cargo run --locked -- "C:\путь\к\файлу.txt"
 
 ### Регистрация типов файлов для установки
 
-Распакуйте RustText в постоянную папку и запустите команду из этой папки от имени пользователя, который будет работать с программой.
+Распакуйте RustText в постоянную папку и запустите команду из этой папки от имени пользователя, который будет работать с программой. хм
+
 
 ```powershell
 $registration = Start-Process -FilePath (Resolve-Path '.\rusttext.exe').Path -ArgumentList '--register-file-associations' -Wait -PassThru
