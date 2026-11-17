@@ -32,7 +32,7 @@ jobs:
       - name: Install Rust toolchain
         run: rustup toolchain install $env:RUSTUP_TOOLCHAIN --profile minimal --component rustfmt --component clippy
 
-      # Добавленный шаг кеширования
+      
       - name: Cache Rust dependencies
         uses: Swatinem/rust-cache@v2
 
